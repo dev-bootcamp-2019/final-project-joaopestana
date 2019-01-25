@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import SimpleStorageContract from "./contracts/SimpleStorage.json";
 import getWeb3 from "./utils/getWeb3";
-import ipfs from '.\ipfs' // to use a remote node like infura
+
+import "./ipfs" // to use a remote node like infura
 
 import "./App.css";
 
